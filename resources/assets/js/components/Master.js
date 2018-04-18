@@ -14,9 +14,8 @@ class Master extends Component {
             </div>
             <ul className="nav navbar-nav">
               <li className="active"><a href="#">Home</a></li>
-              <li><Link to="/add-item">Create Item</Link></li>
-              <li><a href="#">Page 2</a></li>
-              <li><a href="#">Page 3</a></li>
+              <li><Link to="display-item">Ver items</Link></li>
+              <li><Link to="/add-item">Crear Item</Link></li>
             </ul>
           </div>
       </nav>
